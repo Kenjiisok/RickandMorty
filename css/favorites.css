@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/cielo-estrellado.png"); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: #87F54E;; 
+  }
+
+.footer-link:visited{
+    color: #FFFFFF;
+}
+
+header{
+ height: fit-content;
+}
+
+.logo{
+    height: 10rem;
+    width: 35rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.ul-1{
+    display: flex;
+    gap: 4.5rem;
+}
+
+
+.li-1{
+    font-size: 1.2rem;
+    list-style: none;
+    color: #87F54E;
+}
+
+section{
+    display: flex;
+}
+
+img{
+    height: 25rem;
+}
+
+ul{
+    color: #FFFFFF;
+}
+
+li{
+    list-style: inside;
+}
