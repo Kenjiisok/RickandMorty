@@ -8,6 +8,14 @@ body{
     background-image: url("../img/cielo-estrellado.png");
 }
 
+header{
+    height: 200px;
+}
+
+.logo{
+    height: 150px;
+    width: 500px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -38,4 +46,20 @@ nav{
 .li-2{
     list-style: none;
     color: #FFFFFF;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Define 5 colunas */
+    grid-gap: 10px; /* Espaçamento entre as colunas */
+    grid-row-gap: 20px; /* Espaçamento entre as linhas */
+    height: 500px; /* Define a altura da área principal */
+}
+
+
+
+img {
+    width: 250px; /* Ajusta a largura base para 250px */
+    object-fit: contain; /* Redimensiona a imagem para caber dentro da área */
 }
