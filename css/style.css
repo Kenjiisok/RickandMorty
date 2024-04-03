@@ -60,6 +60,29 @@ main {
 
 
 img {
-    width: 250px; /* Ajusta a largura base para 250px */
-    object-fit: contain; /* Redimensiona a imagem para caber dentro da área */
+    object-fit: contain; /* Maintain aspect ratio */
 }
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10,
+.img11, .img12, .img13, .img14, .img15 {
+  position: absolute;
+}
+
+/*
+.img1{
+    left: 110px;
+    right: 200px;
+    bottom: 100px;
+}
+*/
+
+.img3{
+    top: 280px;
+    left: 480px;
+    right: 200px;
+}
+.img2 {
+    left: 110px;
+    right: 200px;
+    bottom: 100px;
+  }
