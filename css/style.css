@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/cielo-estrellado.png");
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-2{
+    display: flex;
+}
+
+
+.ul-1{
+    display: flex;
+    gap: 50px;
+}
+
+.ul-2{
+ display: flex;
+}
+
+
+.li-1{
+    font-size: 1.2rem;
+    list-style: none;
+    color: #87F54E;
+}
+
+.li-2{
+    list-style: none;
+    color: #FFFFFF;
+}
