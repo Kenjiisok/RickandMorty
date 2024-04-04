@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +14,8 @@ body {
 
 a{
     text-decoration: none;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
 }
 
 a:visited {
@@ -36,10 +40,11 @@ nav{
     align-items: center;
 }
 
-
 .ul-1{
     display: flex;
     gap: 4.5rem;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000;
 }
 
 
