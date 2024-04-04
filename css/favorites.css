@@ -14,16 +14,16 @@ p{
     color: #FFFFFF;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
 a:visited {
-  color: #87f54e;
+  color: #87F54E;; 
 }
 
-.footer-link:visited {
-  color: #ffffff;
+.footer-link:visited{
+  color: #FFFFFF;
 }
 
 header {
@@ -51,6 +51,10 @@ nav {
   color: #87f54e;
 }
 
+main{
+    height: 37rem;
+}
+
 section {
   display: flex; 
 }
@@ -74,6 +78,61 @@ li {
   list-style: inside;
 }
 
+footer{
+  display: flex;
+  background-color: #272727;
+  width: 100%;
+  height: fit-content;
+}
 
+.divisoria{
+  width: 0.01rem;
+  height: 5rem;
+  margin-top: 1rem;
+  background-color: #FFFFFF;
+}
+
+.rick{
+  height: 6rem;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+
+.nav-2{
+  display: flex;
+}
+
+.ul-2{
+  font-size: 1.2rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-left: 7rem;
+}
+
+.li-2{
+  list-style: none;
+  color: #FFFFFF;
+}
+
+.side-footer{
+  margin-left: 40rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-footer-text{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 7rem;
+}
+
+.side-footer-img{
+  display: flex;
+}
+
+.git{
+  height: 2rem;
+}
 
 
