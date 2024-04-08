@@ -52,10 +52,11 @@ nav {
 }
 
 main{
-    height: 37rem;
+    height: fit-content
 }
 
-section {
+.section-planet {
+  margin-left: 15rem;
   display: flex; 
 }
 
@@ -66,7 +67,8 @@ img {
 }
 
 .lista{
-    margin: 4rem;
+    font-size: 1.3rem;
+    margin: 4rem 0 0 10rem;
 }
 ul {
   column-count: 2;
@@ -78,23 +80,30 @@ li {
   list-style: inside;
 }
 
+.section-banners {
+  height: 40rem;
+  background-color: #ffffff;
+  width: 70%;
+  margin: 0 auto; 
+}
+
 footer{
+  margin-top: 10rem;
   display: flex;
   background-color: #272727;
   width: 100%;
-  height: fit-content;
 }
 
 .divisoria{
   width: 0.01rem;
-  height: 5rem;
+  height: 7rem;
   margin-top: 1rem;
   background-color: #FFFFFF;
 }
 
 .rick{
   height: 6rem;
-  padding: 0.2rem;
+  padding: 0.1rem;
   margin-left: 1rem;
 }
 
@@ -105,7 +114,7 @@ footer{
 .ul-2{
   font-size: 1.2rem;
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   align-items: center;
   margin-left: 7rem;
 }
