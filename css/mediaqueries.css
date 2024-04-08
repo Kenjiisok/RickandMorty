@@ -1,0 +1,125 @@
+@media screen and (max-width: 600px) {
+    .ul-1 {
+      display: none;
+    }
+  
+    .dropdown-menu {
+      display: none;
+      list-style: none;
+    }
+  
+    .menu-btn {
+      display: block;
+    }
+
+    .logo{
+        height: 5rem;
+        width: 15rem;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10,
+    .img11, .img12, .img13, .img14, .img15 {
+    position: absolute;
+    }
+
+    .img1{
+        left: 10px;
+        top: 640px;
+        height: 70px;
+    }
+    
+    .img3{
+        left: 80px;
+        top: 300px;
+        height: 60px;
+    }
+
+      
+    .img4{
+        left: 20px;
+        top: 800px;
+        height: 100px;
+    }
+
+    .img5{
+        left: 220px;
+        top: 150px;
+        height: 75px;
+    }
+    
+    .img6{
+        left: 150px;
+        top: 450px;
+        height: 200px;
+    }
+
+    
+    .img7{
+        left: 130px;
+        top: 700px;
+        height: 190px;
+    }
+
+    .img8{
+        left: 30px;
+        top: 100px;
+        height: 130px;
+    }
+
+    .img9{
+        left: 280px;
+        top: 630px;
+        height: 60px;
+    }
+
+    .img10{
+        left: 10px;
+        top: 700px;
+        height: 80px;
+    }
+
+    .img11{
+        left: 130px;
+        top: 660px;
+        height: 100px;
+    }
+
+    .img12{
+        left: 130px;
+        top: 660px;
+        height: 100px;
+    }
+    
+    .img13{
+        top: 220px;
+        height: 90px;
+    }
+
+    .img14{
+        left: 180px;
+        top: 260px;
+        height: 150px;
+    }
+
+    .img15{
+        left:10px;
+        top: 350px;
+        height: 80px;
+    }
+    
+    footer{
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 10rem;
+    }
+
+    .nav-2{
+        flex-direction: column;
+        
+    }
+
+    .divisoria{
+        display: none;
+    }
+}
+  
